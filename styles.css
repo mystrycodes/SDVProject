@@ -280,6 +280,8 @@ h3 {
     background-image: url('bgimage3.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
