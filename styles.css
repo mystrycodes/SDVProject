@@ -36,24 +36,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.95);
-    padding: 40px;
+    padding: 0px 40px;
     border-radius: 12px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
 }
 
 h1 {
@@ -276,12 +263,7 @@ h3 {
 /* Hero Section Styles */
 .hero-section {
     position: relative;
-    height: 80vh;
-    background-image: url('bgimage3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,7 +274,7 @@ h3 {
     overflow: hidden;
 }
 
-.hero-section::before {
+/* .hero-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -301,7 +283,7 @@ h3 {
     bottom: 0;
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
-}
+} */
 
 .hero-content {
     position: relative;
